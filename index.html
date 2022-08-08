@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">my portfolio<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">My Projects</a></li>
+            
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hey! I am</h1>
+          <span class="auto">Shruti Makhwan</span>
+          <p>
+            Hi, I am a student at Symboisis Skills and Professional University. I'm persuing B.Tech in IT with specialization in Cyber-Security. 
+            I've a keen interest in learing new things, have a positive attitude towards work and puntual in every aspect. 
+
+          </p>
+          
+        </div>
+        <div class="main-two">
+          <img src="./Images/4.png" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          my few PYTHON projects here are:
+        </p>
+        <button class="button">Download CV</button>
+        <div class="projects-div flex div-1">
+          <img src="./Images/Projects/5.png" alt="" />
+          <h3>Caesar Cipher</h3>
+          <p>
+            An encryption-decryption cipher python project.
+          </p>
+          <button>
+            <a href="https://github.com/ignite07/Caesae-Cipher-">Live Preview</a>
+          </button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./Images/Projects/6.png" alt="" />
+          <h3>Password Generator</h3>
+          <p>
+            This python project generates a password using alphabets, symbols and numbers.
+          </p>
+          <button>
+            <a href="https://github.com/ignite07/Password-Generator">Live Preview</a>
+          </button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./Images/Projects/7.png" alt="" />
+          <h3>The guess game</h3>
+          <p>
+            The famous GUESS game. 
+          </p>
+          <button>
+            <a href="https://github.com/ignite07/the_perfect_guess-Game">Live Preview</a>
+          </button>
+          
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Shruti Makhwan</span>
+          <p>
+            Hi there, 
+            I'm Shruti, a B.Tech student doing specializaion in Cyber-Security.
+            I enjoy coding in Python, web development and studying and digging more about y main domain, CYBER-SECURITY.
+            I also like to write poems, paint and write down my thoughts in my journal.
+            I'm a very amiable, easy-to-go person, and a puntual person.
+          </p>
+          <div class="btns">
+            
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite $hruti</div>
+        <div class="social">
+          
+          <button class="media">
+            <a href="https://www.instgram.com/shruti.makhwan_701">INSTAGRAM</a>
+            </button>
+          
+
+          <button class="media3">
+            <a href="mailto: shruti.makhwan07@gmail.com">Mail</a>
+          </button>
+
+          <button class="media4">
+            <a href="https://twitter.com/1711Shruti">Twitter</a>
+          </button>
+
+          <button class="media2">
+            <a href="https://www.linkedin.com/in/shruti-makhwan-3605b31b2/">LinkedIn</a>
+          </button>
+
+          <button class="media1">
+            <a href="https://github.com/ignite07">Github</a>
+          </button>
+    
+          
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Shruti Makhwan", "Web Developer", "Cyber-Security enthusiast"],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
